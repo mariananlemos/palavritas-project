@@ -1,0 +1,18 @@
+[
+  {
+    "device": "Android",
+    "sessions": 18675,
+    "win_rate": 63.095046854083,
+    "avg_attempts": 3.4741633199464523,
+    "played_next_day": 21.981258366800535,
+    "active_d30": 31.785809906291835
+  },
+  {
+    "device": "iOS",
+    "sessions": 22369,
+    "win_rate": 58.071438151012565,
+    "avg_attempts": 3.671599088023604,
+    "played_next_day": 22.401537842549956,
+    "active_d30": 32.04434708748715
+  }
+]

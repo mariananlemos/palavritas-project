@@ -1,0 +1,90 @@
+{
+  "by_streak": [
+    {
+      "streak_day": 1,
+      "sessions": 31952,
+      "played_next_day": 21.74198798197296,
+      "active_d30": 31.979218828242363
+    },
+    {
+      "streak_day": 2,
+      "sessions": 6939,
+      "played_next_day": 23.476005188067443,
+      "active_d30": 31.632800115290387
+    },
+    {
+      "streak_day": 3,
+      "sessions": 1620,
+      "played_next_day": 24.012345679012345,
+      "active_d30": 31.419753086419753
+    },
+    {
+      "streak_day": 4,
+      "sessions": 382,
+      "played_next_day": 28.272251308900525,
+      "active_d30": 34.29319371727749
+    },
+    {
+      "streak_day": 5,
+      "sessions": 108,
+      "played_next_day": 28.703703703703702,
+      "active_d30": 34.25925925925926
+    },
+    {
+      "streak_day": 6,
+      "sessions": 31,
+      "played_next_day": 29.03225806451613,
+      "active_d30": 35.483870967741936
+    },
+    {
+      "streak_day": 7,
+      "sessions": 9,
+      "played_next_day": 33.33333333333333,
+      "active_d30": 33.33333333333333
+    },
+    {
+      "streak_day": 8,
+      "sessions": 3,
+      "played_next_day": 0.0,
+      "active_d30": 0.0
+    }
+  ],
+  "stats": {
+    "attempts": {
+      "mean_played_next_day_true": 3.608490566037736,
+      "mean_played_next_day_false": 3.574135554998747,
+      "d1_t_stat": 1.4048171897841413,
+      "d1_p_value": 0.1600967401837039,
+      "d1_significant": false,
+      "mean_active_d30_true": 3.5228174603174605,
+      "mean_active_d30_false": 3.6094130279169647,
+      "d30_t_stat": -3.9784648637480413,
+      "d30_p_value": 6.955144324297379e-05,
+      "d30_significant": true
+    },
+    "time_to_complete_sec": {
+      "mean_played_next_day_true": 271.3228389644581,
+      "mean_played_next_day_false": 269.3769731896768,
+      "d1_t_stat": 1.3473543332557716,
+      "d1_p_value": 0.1778868308695919,
+      "d1_significant": false,
+      "mean_active_d30_true": 270.234126984127,
+      "mean_active_d30_false": 269.60984251968506,
+      "d30_t_stat": 0.48536766624818767,
+      "d30_p_value": 0.6274196839426184,
+      "d30_significant": false
+    },
+    "streak_day": {
+      "mean_played_next_day_true": 1.320096533567354,
+      "mean_played_next_day_false": 1.2840453520420947,
+      "d1_t_stat": 4.623449860119996,
+      "d1_p_value": 3.808020910484385e-06,
+      "d1_significant": true,
+      "mean_active_d30_true": 1.2920482295482296,
+      "mean_active_d30_false": 1.2920544022906228,
+      "d30_t_stat": -0.0009217242284186361,
+      "d30_p_value": 0.9992645777949966,
+      "d30_significant": false
+    }
+  }
+}

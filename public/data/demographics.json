@@ -1,0 +1,550 @@
+{
+  "age_range": {
+    "data": [
+      {
+        "age_range": "18-24",
+        "sessions": 3314,
+        "unique_users": 101,
+        "win_rate": 59.62582981291491,
+        "avg_attempts": 3.607121303560652,
+        "played_next_day": 21.907060953530475,
+        "active_d30": 32.166566083283044
+      },
+      {
+        "age_range": "25-34",
+        "sessions": 9936,
+        "unique_users": 284,
+        "win_rate": 60.40660225442834,
+        "avg_attempts": 3.5917874396135265,
+        "played_next_day": 22.584541062801932,
+        "active_d30": 32.155797101449274
+      },
+      {
+        "age_range": "35-44",
+        "sessions": 6830,
+        "unique_users": 203,
+        "win_rate": 60.6588579795022,
+        "avg_attempts": 3.564568081991215,
+        "played_next_day": 21.830161054172766,
+        "active_d30": 32.357247437774525
+      },
+      {
+        "age_range": "45+",
+        "sessions": 3377,
+        "unique_users": 95,
+        "win_rate": 61.03050044418122,
+        "avg_attempts": 3.587207580692923,
+        "played_next_day": 23.74888954693515,
+        "active_d30": 32.4252294936334
+      },
+      {
+        "age_range": "Não Informado",
+        "sessions": 17587,
+        "unique_users": 517,
+        "win_rate": 60.22061750156366,
+        "avg_attempts": 3.57696025473361,
+        "played_next_day": 21.908227668163985,
+        "active_d30": 31.489168135554674
+      }
+    ],
+    "stats": {
+      "chi2": 0.13407209099300124,
+      "p_value": 0.9874563076200831,
+      "significant": false
+    }
+  },
+  "salary_range": {
+    "data": [
+      {
+        "salary_range": "Não Informado",
+        "sessions": 20137,
+        "unique_users": 593,
+        "win_rate": 60.40621741073645,
+        "avg_attempts": 3.5697968912946316,
+        "played_next_day": 21.92481501713264,
+        "active_d30": 31.836917117743457
+      },
+      {
+        "salary_range": "R$2k-R$4k",
+        "sessions": 5242,
+        "unique_users": 152,
+        "win_rate": 60.62571537581076,
+        "avg_attempts": 3.5793590232735597,
+        "played_next_day": 23.254483021747426,
+        "active_d30": 32.56390690576116
+      },
+      {
+        "salary_range": "R$4k-R$6k",
+        "sessions": 5545,
+        "unique_users": 155,
+        "win_rate": 60.324616771866545,
+        "avg_attempts": 3.593327321911632,
+        "played_next_day": 21.92966636609558,
+        "active_d30": 32.33543733092876
+      },
+      {
+        "salary_range": "R$6k-R$10k",
+        "sessions": 3795,
+        "unique_users": 121,
+        "win_rate": 61.10671936758894,
+        "avg_attempts": 3.569433465085639,
+        "played_next_day": 21.6600790513834,
+        "active_d30": 31.251646903820816
+      },
+      {
+        "salary_range": "acima de R$10k",
+        "sessions": 2918,
+        "unique_users": 84,
+        "win_rate": 56.545579163810835,
+        "avg_attempts": 3.740233036326251,
+        "played_next_day": 22.858122001370802,
+        "active_d30": 30.637422892392046
+      },
+      {
+        "salary_range": "até R$2k",
+        "sessions": 3407,
+        "unique_users": 95,
+        "win_rate": 62.13677722336366,
+        "avg_attempts": 3.5154094511300262,
+        "played_next_day": 22.805987672439095,
+        "active_d30": 32.668036395656
+      }
+    ],
+    "stats": {
+      "chi2": 5.215110907364357,
+      "p_value": 0.26592922677479275,
+      "significant": false
+    }
+  },
+  "sector": {
+    "data": [
+      {
+        "sector": "Não Informado",
+        "sessions": 13536,
+        "unique_users": 400,
+        "win_rate": 60.21719858156028,
+        "avg_attempts": 3.576388888888889,
+        "played_next_day": 21.823286052009454,
+        "active_d30": 31.382978723404253
+      },
+      {
+        "sector": "direito",
+        "sessions": 1454,
+        "unique_users": 43,
+        "win_rate": 59.55983493810179,
+        "avg_attempts": 3.6134800550206325,
+        "played_next_day": 20.701513067400278,
+        "active_d30": 31.636863823933975
+      },
+      {
+        "sector": "educação",
+        "sessions": 3471,
+        "unique_users": 101,
+        "win_rate": 60.069144338807256,
+        "avg_attempts": 3.6113511956208586,
+        "played_next_day": 23.681936041486605,
+        "active_d30": 33.53500432152118
+      },
+      {
+        "sector": "finanças",
+        "sessions": 3890,
+        "unique_users": 114,
+        "win_rate": 59.66580976863754,
+        "avg_attempts": 3.6210796915167096,
+        "played_next_day": 21.773778920308484,
+        "active_d30": 32.159383033419026
+      },
+      {
+        "sector": "marketing",
+        "sessions": 2087,
+        "unique_users": 65,
+        "win_rate": 57.97795879252515,
+        "avg_attempts": 3.6813608049832296,
+        "played_next_day": 21.322472448490657,
+        "active_d30": 32.34307618591279
+      },
+      {
+        "sector": "outros",
+        "sessions": 5210,
+        "unique_users": 153,
+        "win_rate": 60.69097888675624,
+        "avg_attempts": 3.5754318618042227,
+        "played_next_day": 21.900191938579656,
+        "active_d30": 31.669865642994242
+      },
+      {
+        "sector": "saúde",
+        "sessions": 2631,
+        "unique_users": 75,
+        "win_rate": 56.480425693652606,
+        "avg_attempts": 3.7362219688331435,
+        "played_next_day": 21.70277461041429,
+        "active_d30": 30.938806537438236
+      },
+      {
+        "sector": "tech",
+        "sessions": 6294,
+        "unique_users": 177,
+        "win_rate": 63.63203050524309,
+        "avg_attempts": 3.4529710835716556,
+        "played_next_day": 23.419129329520178,
+        "active_d30": 32.28471560216079
+      },
+      {
+        "sector": "varejo",
+        "sessions": 2471,
+        "unique_users": 72,
+        "win_rate": 60.17806556050183,
+        "avg_attempts": 3.5819506272764063,
+        "played_next_day": 22.703358963982193,
+        "active_d30": 32.78025091056252
+      }
+    ],
+    "stats": {
+      "chi2": 6.056802494503228,
+      "p_value": 0.5331327134932016,
+      "significant": false
+    }
+  },
+  "company_size": {
+    "data": [
+      {
+        "company_size": "MEI/micro",
+        "sessions": 6171,
+        "unique_users": 174,
+        "win_rate": 62.161724193809754,
+        "avg_attempts": 3.511748501053314,
+        "played_next_day": 23.367363474315344,
+        "active_d30": 32.06935666828715
+      },
+      {
+        "company_size": "Não Informado",
+        "sessions": 13536,
+        "unique_users": 400,
+        "win_rate": 60.21719858156028,
+        "avg_attempts": 3.576388888888889,
+        "played_next_day": 21.823286052009454,
+        "active_d30": 31.382978723404253
+      },
+      {
+        "company_size": "grande",
+        "sessions": 5585,
+        "unique_users": 159,
+        "win_rate": 60.143240823634734,
+        "avg_attempts": 3.5847806624888094,
+        "played_next_day": 22.184422560429724,
+        "active_d30": 31.94270367054611
+      },
+      {
+        "company_size": "multinacional",
+        "sessions": 5013,
+        "unique_users": 156,
+        "win_rate": 58.90684221025334,
+        "avg_attempts": 3.6554957111510076,
+        "played_next_day": 21.84320766008378,
+        "active_d30": 31.79732694993018
+      },
+      {
+        "company_size": "média",
+        "sessions": 6001,
+        "unique_users": 168,
+        "win_rate": 60.839860023329436,
+        "avg_attempts": 3.570404932511248,
+        "played_next_day": 22.529578403599402,
+        "active_d30": 32.994500916513914
+      },
+      {
+        "company_size": "pequena",
+        "sessions": 4738,
+        "unique_users": 143,
+        "win_rate": 59.582102152807096,
+        "avg_attempts": 3.6211481637821867,
+        "played_next_day": 21.82355424229633,
+        "active_d30": 32.05994090333474
+      }
+    ],
+    "stats": {
+      "chi2": 2.3674123717893814,
+      "p_value": 0.6685242102394875,
+      "significant": false
+    }
+  },
+  "state": {
+    "data": [
+      {
+        "state": "AL",
+        "sessions": 1628,
+        "unique_users": 47,
+        "win_rate": 60.810810810810814,
+        "avg_attempts": 3.5657248157248156,
+        "played_next_day": 23.034398034398034,
+        "active_d30": 32.86240786240786
+      },
+      {
+        "state": "AM",
+        "sessions": 1652,
+        "unique_users": 45,
+        "win_rate": 59.80629539951574,
+        "avg_attempts": 3.5829297820823243,
+        "played_next_day": 23.002421307506054,
+        "active_d30": 30.93220338983051
+      },
+      {
+        "state": "BA",
+        "sessions": 1217,
+        "unique_users": 36,
+        "win_rate": 57.354149548069024,
+        "avg_attempts": 3.7107641741988497,
+        "played_next_day": 21.939194741166805,
+        "active_d30": 31.635168447000822
+      },
+      {
+        "state": "CE",
+        "sessions": 977,
+        "unique_users": 29,
+        "win_rate": 63.25486182190379,
+        "avg_attempts": 3.465711361310133,
+        "played_next_day": 22.41555783009212,
+        "active_d30": 32.95803480040942
+      },
+      {
+        "state": "DF",
+        "sessions": 1396,
+        "unique_users": 40,
+        "win_rate": 59.742120343839545,
+        "avg_attempts": 3.6189111747851004,
+        "played_next_day": 21.70487106017192,
+        "active_d30": 33.0945558739255
+      },
+      {
+        "state": "ES",
+        "sessions": 1592,
+        "unique_users": 43,
+        "win_rate": 58.417085427135675,
+        "avg_attempts": 3.6620603015075375,
+        "played_next_day": 23.99497487437186,
+        "active_d30": 31.721105527638194
+      },
+      {
+        "state": "GO",
+        "sessions": 1345,
+        "unique_users": 45,
+        "win_rate": 59.70260223048327,
+        "avg_attempts": 3.612639405204461,
+        "played_next_day": 21.71003717472119,
+        "active_d30": 29.888475836431226
+      },
+      {
+        "state": "MA",
+        "sessions": 1483,
+        "unique_users": 45,
+        "win_rate": 60.215778826702625,
+        "avg_attempts": 3.5799055967633175,
+        "played_next_day": 19.28523263654754,
+        "active_d30": 31.827376938637897
+      },
+      {
+        "state": "MG",
+        "sessions": 1818,
+        "unique_users": 57,
+        "win_rate": 62.76127612761277,
+        "avg_attempts": 3.4983498349834985,
+        "played_next_day": 20.68206820682068,
+        "active_d30": 30.63806380638064
+      },
+      {
+        "state": "MS",
+        "sessions": 1049,
+        "unique_users": 31,
+        "win_rate": 61.58245948522403,
+        "avg_attempts": 3.5529075309818876,
+        "played_next_day": 21.830314585319353,
+        "active_d30": 31.649189704480456
+      },
+      {
+        "state": "MT",
+        "sessions": 1299,
+        "unique_users": 39,
+        "win_rate": 63.279445727482674,
+        "avg_attempts": 3.4734411085450345,
+        "played_next_day": 22.632794457274827,
+        "active_d30": 31.56274056966898
+      },
+      {
+        "state": "Minas Gerais",
+        "sessions": 47,
+        "unique_users": 1,
+        "win_rate": 59.57446808510638,
+        "avg_attempts": 3.6808510638297873,
+        "played_next_day": 31.914893617021278,
+        "active_d30": 34.04255319148936
+      },
+      {
+        "state": "Não Informado",
+        "sessions": 13536,
+        "unique_users": 400,
+        "win_rate": 60.21719858156028,
+        "avg_attempts": 3.576388888888889,
+        "played_next_day": 21.823286052009454,
+        "active_d30": 31.382978723404253
+      },
+      {
+        "state": "PB",
+        "sessions": 1449,
+        "unique_users": 45,
+        "win_rate": 57.694962042788134,
+        "avg_attempts": 3.717736369910283,
+        "played_next_day": 21.94616977225673,
+        "active_d30": 32.367149758454104
+      },
+      {
+        "state": "PE",
+        "sessions": 1183,
+        "unique_users": 34,
+        "win_rate": 56.38207945900253,
+        "avg_attempts": 3.7193575655114115,
+        "played_next_day": 19.695688926458157,
+        "active_d30": 28.82502113271344
+      },
+      {
+        "state": "PR",
+        "sessions": 1180,
+        "unique_users": 35,
+        "win_rate": 61.694915254237294,
+        "avg_attempts": 3.538135593220339,
+        "played_next_day": 22.28813559322034,
+        "active_d30": 34.83050847457627
+      },
+      {
+        "state": "RJ",
+        "sessions": 1617,
+        "unique_users": 39,
+        "win_rate": 59.307359307359306,
+        "avg_attempts": 3.62152133580705,
+        "played_next_day": 25.850340136054424,
+        "active_d30": 34.69387755102041
+      },
+      {
+        "state": "RN",
+        "sessions": 1153,
+        "unique_users": 32,
+        "win_rate": 53.16565481352992,
+        "avg_attempts": 3.9019947961838684,
+        "played_next_day": 23.156981786643538,
+        "active_d30": 32.61058109280139
+      },
+      {
+        "state": "RS",
+        "sessions": 1809,
+        "unique_users": 45,
+        "win_rate": 66.94306246545052,
+        "avg_attempts": 3.3200663349917083,
+        "played_next_day": 24.654505251520177,
+        "active_d30": 34.49419568822554
+      },
+      {
+        "state": "SC",
+        "sessions": 1243,
+        "unique_users": 38,
+        "win_rate": 59.45293644408689,
+        "avg_attempts": 3.6242960579243766,
+        "played_next_day": 24.215607401448107,
+        "active_d30": 32.34111021721641
+      },
+      {
+        "state": "SE",
+        "sessions": 1063,
+        "unique_users": 33,
+        "win_rate": 65.1928504233302,
+        "avg_attempts": 3.394167450611477,
+        "played_next_day": 20.790216368767638,
+        "active_d30": 32.92568203198495
+      },
+      {
+        "state": "SP",
+        "sessions": 1265,
+        "unique_users": 40,
+        "win_rate": 60.0,
+        "avg_attempts": 3.608695652173913,
+        "played_next_day": 21.26482213438735,
+        "active_d30": 31.46245059288538
+      },
+      {
+        "state": "São Paulo",
+        "sessions": 43,
+        "unique_users": 1,
+        "win_rate": 60.46511627906976,
+        "avg_attempts": 3.511627906976744,
+        "played_next_day": 18.6046511627907,
+        "active_d30": 34.883720930232556
+      }
+    ],
+    "stats": {
+      "chi2": 28.25027987217969,
+      "p_value": 0.13319479052355612,
+      "significant": false
+    }
+  },
+  "top_jobs": [
+    {
+      "job_role": "Diretor",
+      "sessions": 1927,
+      "played_next_day": 22.729631551634665,
+      "active_d30": 33.21224701608718
+    },
+    {
+      "job_role": "Analista",
+      "sessions": 1904,
+      "played_next_day": 22.846638655462183,
+      "active_d30": 30.88235294117647
+    },
+    {
+      "job_role": "Professor",
+      "sessions": 1741,
+      "played_next_day": 23.032739804709937,
+      "active_d30": 32.7972429638139
+    },
+    {
+      "job_role": "Gerente",
+      "sessions": 1674,
+      "played_next_day": 20.78853046594982,
+      "active_d30": 31.60095579450418
+    },
+    {
+      "job_role": "Estudante",
+      "sessions": 1474,
+      "played_next_day": 21.506105834464044,
+      "active_d30": 28.561736770691994
+    },
+    {
+      "job_role": "Coordenador",
+      "sessions": 1455,
+      "played_next_day": 22.88659793814433,
+      "active_d30": 32.92096219931271
+    },
+    {
+      "job_role": "Engenheiro",
+      "sessions": 1384,
+      "played_next_day": 21.893063583815028,
+      "active_d30": 33.59826589595375
+    },
+    {
+      "job_role": "Consultor",
+      "sessions": 1353,
+      "played_next_day": 21.507760532150776,
+      "active_d30": 31.70731707317073
+    },
+    {
+      "job_role": "Designer",
+      "sessions": 1331,
+      "played_next_day": 19.984973703981968,
+      "active_d30": 31.104432757325316
+    },
+    {
+      "job_role": "coordenador",
+      "sessions": 1293,
+      "played_next_day": 27.610208816705335,
+      "active_d30": 35.18948182521268
+    }
+  ]
+}

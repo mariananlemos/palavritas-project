@@ -1,0 +1,22 @@
+{
+  "raw_records": {
+    "sessions": 41157,
+    "attempts": 147270,
+    "profiles": 800
+  },
+  "cleaned_records": {
+    "sessions": 41044,
+    "attempts": 146969,
+    "profiles": 800
+  },
+  "anomalies_removed": {
+    "invalid_sessions_attempts_count": 93,
+    "missing_results_sessions_count": 63,
+    "invalid_attempts_detail_count": 41,
+    "orphaned_attempts_detail_count": 260
+  },
+  "standardizations": {
+    "device_casing_fixes": 4448,
+    "delivery_boolean_fixes": 800
+  }
+}

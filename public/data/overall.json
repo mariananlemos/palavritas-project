@@ -1,0 +1,9 @@
+{
+  "total_sessions": 41044,
+  "total_users": 1200,
+  "win_rate_pct": 60.36,
+  "avg_attempts": 3.58,
+  "avg_time_sec": 269.81,
+  "d1_retention_pct": 22.21,
+  "d30_active_pct": 31.93
+}

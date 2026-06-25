@@ -1,0 +1,197 @@
+{
+  "by_hour": [
+    {
+      "session_hour": 6,
+      "sessions": 4274,
+      "played_next_day": 21.151146467009827,
+      "active_d30": 36.21899859616284
+    },
+    {
+      "session_hour": 7,
+      "sessions": 4381,
+      "played_next_day": 23.008445560374344,
+      "active_d30": 38.53001597808719
+    },
+    {
+      "session_hour": 8,
+      "sessions": 4282,
+      "played_next_day": 21.952358710882766,
+      "active_d30": 37.78608127043437
+    },
+    {
+      "session_hour": 12,
+      "sessions": 1418,
+      "played_next_day": 21.65021156558533,
+      "active_d30": 27.291960507757405
+    },
+    {
+      "session_hour": 13,
+      "sessions": 1437,
+      "played_next_day": 22.825330549756437,
+      "active_d30": 29.15796798886569
+    },
+    {
+      "session_hour": 14,
+      "sessions": 1424,
+      "played_next_day": 24.367977528089888,
+      "active_d30": 28.230337078651687
+    },
+    {
+      "session_hour": 15,
+      "sessions": 1463,
+      "played_next_day": 24.606971975393026,
+      "active_d30": 34.2447026657553
+    },
+    {
+      "session_hour": 16,
+      "sessions": 1382,
+      "played_next_day": 20.11577424023155,
+      "active_d30": 28.65412445730825
+    },
+    {
+      "session_hour": 17,
+      "sessions": 1431,
+      "played_next_day": 22.78127183787561,
+      "active_d30": 31.16701607267645
+    },
+    {
+      "session_hour": 18,
+      "sessions": 2729,
+      "played_next_day": 21.253206302674972,
+      "active_d30": 27.37266397947966
+    },
+    {
+      "session_hour": 19,
+      "sessions": 2732,
+      "played_next_day": 20.68081991215227,
+      "active_d30": 29.685212298682284
+    },
+    {
+      "session_hour": 20,
+      "sessions": 2646,
+      "played_next_day": 21.919879062736207,
+      "active_d30": 28.00453514739229
+    },
+    {
+      "session_hour": 21,
+      "sessions": 2866,
+      "played_next_day": 22.295882763433355,
+      "active_d30": 29.72784368457781
+    },
+    {
+      "session_hour": 22,
+      "sessions": 4290,
+      "played_next_day": 21.794871794871796,
+      "active_d30": 29.044289044289044
+    },
+    {
+      "session_hour": 23,
+      "sessions": 4289,
+      "played_next_day": 23.758451853578926,
+      "active_d30": 30.356726509675912
+    }
+  ],
+  "by_hour_sub": [
+    {
+      "session_hour": 6,
+      "false": 321,
+      "true": 2590
+    },
+    {
+      "session_hour": 7,
+      "false": 327,
+      "true": 2666
+    },
+    {
+      "session_hour": 8,
+      "false": 308,
+      "true": 2577
+    },
+    {
+      "session_hour": 12,
+      "false": 85,
+      "true": 878
+    },
+    {
+      "session_hour": 13,
+      "false": 101,
+      "true": 888
+    },
+    {
+      "session_hour": 14,
+      "false": 105,
+      "true": 906
+    },
+    {
+      "session_hour": 15,
+      "false": 85,
+      "true": 913
+    },
+    {
+      "session_hour": 16,
+      "false": 111,
+      "true": 839
+    },
+    {
+      "session_hour": 17,
+      "false": 114,
+      "true": 851
+    },
+    {
+      "session_hour": 18,
+      "false": 245,
+      "true": 1547
+    },
+    {
+      "session_hour": 19,
+      "false": 251,
+      "true": 1627
+    },
+    {
+      "session_hour": 20,
+      "false": 220,
+      "true": 1580
+    },
+    {
+      "session_hour": 21,
+      "false": 283,
+      "true": 1690
+    },
+    {
+      "session_hour": 22,
+      "false": 524,
+      "true": 2181
+    },
+    {
+      "session_hour": 23,
+      "false": 482,
+      "true": 2213
+    }
+  ],
+  "alignment": [
+    {
+      "typical_play_time": "afternoon",
+      "afternoon": 5876,
+      "evening": 0,
+      "morning": 0
+    },
+    {
+      "typical_play_time": "evening",
+      "afternoon": 0,
+      "evening": 7443,
+      "morning": 0
+    },
+    {
+      "typical_play_time": "morning",
+      "afternoon": 0,
+      "evening": 0,
+      "morning": 8789
+    },
+    {
+      "typical_play_time": "night",
+      "afternoon": 0,
+      "evening": 5400,
+      "morning": 0
+    }
+  ]
+}

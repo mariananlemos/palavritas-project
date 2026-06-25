@@ -1,0 +1,91 @@
+{
+  "platform": [
+    {
+      "food_delivery_platform": "Ambos",
+      "sessions": 5777,
+      "unique_users": 164,
+      "played_next_day": 23.489700536610698,
+      "active_d30": 33.06214298078587
+    },
+    {
+      "food_delivery_platform": "Nenhum",
+      "sessions": 9521,
+      "unique_users": 283,
+      "played_next_day": 21.70990442180443,
+      "active_d30": 32.50708959142947
+    },
+    {
+      "food_delivery_platform": "Rappi",
+      "sessions": 6206,
+      "unique_users": 180,
+      "played_next_day": 22.0431840154689,
+      "active_d30": 31.03448275862069
+    },
+    {
+      "food_delivery_platform": "iFood",
+      "sessions": 6004,
+      "unique_users": 173,
+      "played_next_day": 22.818121252498337,
+      "active_d30": 32.06195869420386
+    }
+  ],
+  "frequency": [
+    {
+      "food_delivery_freq_week": 0.0,
+      "sessions": 3742,
+      "played_next_day": 20.63067878140032,
+      "active_d30": 32.228754676643504
+    },
+    {
+      "food_delivery_freq_week": 1.0,
+      "sessions": 5385,
+      "played_next_day": 22.915506035283194,
+      "active_d30": 32.53481894150418
+    },
+    {
+      "food_delivery_freq_week": 2.0,
+      "sessions": 7047,
+      "played_next_day": 22.74726834113807,
+      "active_d30": 31.814956719171278
+    },
+    {
+      "food_delivery_freq_week": 3.0,
+      "sessions": 5554,
+      "played_next_day": 22.002160604969394,
+      "active_d30": 31.814908174288803
+    },
+    {
+      "food_delivery_freq_week": 5.0,
+      "sessions": 3428,
+      "played_next_day": 22.228704784130688,
+      "active_d30": 32.3220536756126
+    },
+    {
+      "food_delivery_freq_week": 7.0,
+      "sessions": 2352,
+      "played_next_day": 24.1921768707483,
+      "active_d30": 33.205782312925166
+    }
+  ],
+  "orders": [
+    {
+      "orders_food_delivery": false,
+      "sessions": 3742,
+      "played_next_day": 20.63067878140032,
+      "active_d30": 32.228754676643504
+    },
+    {
+      "orders_food_delivery": true,
+      "sessions": 23766,
+      "played_next_day": 22.679458049314146,
+      "active_d30": 32.18884120171674
+    }
+  ],
+  "stats": {
+    "orders_d30": {
+      "chi2": 1.7563461521620871,
+      "p_value": 0.1850809175466584,
+      "significant": false
+    }
+  }
+}

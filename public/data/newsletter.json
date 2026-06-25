@@ -1,0 +1,57 @@
+{
+  "by_open_before_game": [
+    {
+      "newsletter_open_before_game": false,
+      "sessions": 33154,
+      "win_rate": 56.41551547324606,
+      "avg_attempts": 3.738583579658563,
+      "avg_time": 269.5029559027568,
+      "played_next_day": 22.356276769017313,
+      "active_d30": 30.53930144175665
+    },
+    {
+      "newsletter_open_before_game": true,
+      "sessions": 7890,
+      "win_rate": 76.92015209125475,
+      "avg_attempts": 2.9228136882129276,
+      "avg_time": 271.0958174904943,
+      "played_next_day": 21.59695817490494,
+      "active_d30": 37.75665399239544
+    }
+  ],
+  "stats": {
+    "d1_retention": {
+      "chi2": 2.0831173930399114,
+      "p_value": 0.14893573563357154,
+      "significant": false
+    },
+    "d30_active": {
+      "chi2": 152.42054180887445,
+      "p_value": 5.127600300982251e-35,
+      "significant": true
+    },
+    "subscriber_d30": {
+      "chi2": 5.020575415389792,
+      "p_value": 0.02504784400303686,
+      "significant": true
+    }
+  },
+  "by_subscriber": [
+    {
+      "newsletter_subscriber": false,
+      "sessions": 3562,
+      "win_rate": 56.09208309938237,
+      "avg_attempts": 3.75435148792813,
+      "played_next_day": 20.802919708029197,
+      "active_d30": 31.049971925884336
+    },
+    {
+      "newsletter_subscriber": true,
+      "sessions": 23946,
+      "win_rate": 61.07074250396726,
+      "avg_attempts": 3.5591330493610625,
+      "played_next_day": 22.63843648208469,
+      "active_d30": 32.3644867618809
+    }
+  ]
+}

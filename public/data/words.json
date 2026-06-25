@@ -1,0 +1,272 @@
+[
+  {
+    "word": "DANÇA",
+    "sessions": 965,
+    "win_rate": 44.248704663212436,
+    "avg_attempts": 4.239378238341969,
+    "avg_time": 267.8818652849741,
+    "played_next_day": 22.383419689119172,
+    "active_d30": 32.2279792746114
+  },
+  {
+    "word": "PAZÃO",
+    "sessions": 1816,
+    "win_rate": 44.713656387665196,
+    "avg_attempts": 4.201541850220265,
+    "avg_time": 270.82103524229075,
+    "played_next_day": 23.898678414096917,
+    "active_d30": 32.48898678414097
+  },
+  {
+    "word": "CIÚME",
+    "sessions": 932,
+    "win_rate": 44.957081545064376,
+    "avg_attempts": 4.226394849785407,
+    "avg_time": 267.0665236051502,
+    "played_next_day": 22.96137339055794,
+    "active_d30": 33.047210300429185
+  },
+  {
+    "word": "HERÓI",
+    "sessions": 2672,
+    "win_rate": 45.84580838323353,
+    "avg_attempts": 4.1609281437125745,
+    "avg_time": 272.41991017964074,
+    "played_next_day": 22.941616766467064,
+    "active_d30": 32.89670658682635
+  },
+  {
+    "word": "ORAÇÃ",
+    "sessions": 869,
+    "win_rate": 45.914844649021866,
+    "avg_attempts": 4.156501726121979,
+    "avg_time": 271.4487917146145,
+    "played_next_day": 21.173762945914845,
+    "active_d30": 31.41542002301496
+  },
+  {
+    "word": "NIXÃO",
+    "sessions": 935,
+    "win_rate": 46.20320855614973,
+    "avg_attempts": 4.129411764705883,
+    "avg_time": 268.4898395721925,
+    "played_next_day": 23.74331550802139,
+    "active_d30": 33.475935828877006
+  },
+  {
+    "word": "FRACO",
+    "sessions": 932,
+    "win_rate": 61.80257510729614,
+    "avg_attempts": 3.490343347639485,
+    "avg_time": 265.7671673819743,
+    "played_next_day": 19.527896995708154,
+    "active_d30": 31.115879828326182
+  },
+  {
+    "word": "FALHA",
+    "sessions": 1833,
+    "win_rate": 62.02945990180033,
+    "avg_attempts": 3.5019094380796507,
+    "avg_time": 278.03600654664484,
+    "played_next_day": 22.367703218767048,
+    "active_d30": 31.860338243316967
+  },
+  {
+    "word": "TEMPO",
+    "sessions": 1842,
+    "win_rate": 62.106406080347455,
+    "avg_attempts": 3.53257328990228,
+    "avg_time": 269.428338762215,
+    "played_next_day": 20.57546145494028,
+    "active_d30": 32.356134636264926
+  },
+  {
+    "word": "ROSTO",
+    "sessions": 922,
+    "win_rate": 62.364425162689805,
+    "avg_attempts": 3.517353579175705,
+    "avg_time": 277.234273318872,
+    "played_next_day": 20.824295010845987,
+    "active_d30": 30.694143167028198
+  },
+  {
+    "word": "CASCA",
+    "sessions": 1816,
+    "win_rate": 62.610132158590304,
+    "avg_attempts": 3.504405286343612,
+    "avg_time": 267.6552863436123,
+    "played_next_day": 22.962555066079297,
+    "active_d30": 32.213656387665196
+  },
+  {
+    "word": "VENTO",
+    "sessions": 1828,
+    "win_rate": 63.01969365426696,
+    "avg_attempts": 3.4770240700218817,
+    "avg_time": 266.92724288840265,
+    "played_next_day": 22.64770240700219,
+    "active_d30": 31.838074398249454
+  },
+  {
+    "word": "VINHO",
+    "sessions": 911,
+    "win_rate": 63.11745334796927,
+    "avg_attempts": 3.4731064763995607,
+    "avg_time": 269.0482985729967,
+    "played_next_day": 22.502744237102085,
+    "active_d30": 34.02854006586169
+  },
+  {
+    "word": "CAMPO",
+    "sessions": 941,
+    "win_rate": 63.23060573857598,
+    "avg_attempts": 3.463336875664187,
+    "avg_time": 278.22529224229544,
+    "played_next_day": 21.04144527098831,
+    "active_d30": 30.924548352816156
+  },
+  {
+    "word": "JOGOS",
+    "sessions": 903,
+    "win_rate": 63.45514950166113,
+    "avg_attempts": 3.497231450719823,
+    "avg_time": 273.14728682170545,
+    "played_next_day": 24.473975636766333,
+    "active_d30": 32.44739756367663
+  },
+  {
+    "word": "LARGO",
+    "sessions": 897,
+    "win_rate": 63.54515050167224,
+    "avg_attempts": 3.4771460423634335,
+    "avg_time": 269.11036789297657,
+    "played_next_day": 21.070234113712374,
+    "active_d30": 32.441471571906355
+  },
+  {
+    "word": "NUVEM",
+    "sessions": 2667,
+    "win_rate": 63.59205099362579,
+    "avg_attempts": 3.451068616422947,
+    "avg_time": 268.04911886014247,
+    "played_next_day": 20.73490813648294,
+    "active_d30": 29.996250468691414
+  },
+  {
+    "word": "PLANO",
+    "sessions": 895,
+    "win_rate": 63.79888268156425,
+    "avg_attempts": 3.446927374301676,
+    "avg_time": 272.5810055865922,
+    "played_next_day": 22.56983240223464,
+    "active_d30": 32.06703910614525
+  },
+  {
+    "word": "SONHO",
+    "sessions": 925,
+    "win_rate": 64.32432432432432,
+    "avg_attempts": 3.4118918918918917,
+    "avg_time": 267.3783783783784,
+    "played_next_day": 23.027027027027028,
+    "active_d30": 32.75675675675676
+  },
+  {
+    "word": "FILME",
+    "sessions": 899,
+    "win_rate": 64.51612903225806,
+    "avg_attempts": 3.4193548387096775,
+    "avg_time": 268.6751946607341,
+    "played_next_day": 22.135706340378196,
+    "active_d30": 31.92436040044494
+  },
+  {
+    "word": "METAL",
+    "sessions": 941,
+    "win_rate": 64.71838469713072,
+    "avg_attempts": 3.3931987247608926,
+    "avg_time": 267.58448459086077,
+    "played_next_day": 23.0605738575983,
+    "active_d30": 31.77470775770457
+  },
+  {
+    "word": "PRAIA",
+    "sessions": 901,
+    "win_rate": 64.81687014428414,
+    "avg_attempts": 3.3795782463928967,
+    "avg_time": 274.10321864594897,
+    "played_next_day": 23.41842397336293,
+    "active_d30": 30.854605993340734
+  },
+  {
+    "word": "PRATO",
+    "sessions": 3688,
+    "win_rate": 64.88611713665944,
+    "avg_attempts": 3.4002169197396963,
+    "avg_time": 270.0545010845987,
+    "played_next_day": 21.39370932754881,
+    "active_d30": 31.724511930585685
+  },
+  {
+    "word": "IDEIA",
+    "sessions": 903,
+    "win_rate": 64.89479512735326,
+    "avg_attempts": 3.389811738648948,
+    "avg_time": 261.96013289036546,
+    "played_next_day": 23.588039867109632,
+    "active_d30": 32.89036544850498
+  },
+  {
+    "word": "BARCO",
+    "sessions": 1792,
+    "win_rate": 65.12276785714286,
+    "avg_attempts": 3.4051339285714284,
+    "avg_time": 265.80970982142856,
+    "played_next_day": 22.65625,
+    "active_d30": 31.69642857142857
+  },
+  {
+    "word": "CORVO",
+    "sessions": 2779,
+    "win_rate": 65.67110471392587,
+    "avg_attempts": 3.351205469593379,
+    "avg_time": 273.1993522849946,
+    "played_next_day": 20.690896005757466,
+    "active_d30": 31.37819359481828
+  },
+  {
+    "word": "PRETO",
+    "sessions": 898,
+    "win_rate": 66.03563474387528,
+    "avg_attempts": 3.337416481069042,
+    "avg_time": 265.14476614699333,
+    "played_next_day": 24.721603563474385,
+    "active_d30": 31.625835189309576
+  },
+  {
+    "word": "MORRO",
+    "sessions": 909,
+    "win_rate": 66.22662266226622,
+    "avg_attempts": 3.3553355335533555,
+    "avg_time": 270.7161716171617,
+    "played_next_day": 20.9020902090209,
+    "active_d30": 33.88338833883388
+  },
+  {
+    "word": "TROCO",
+    "sessions": 908,
+    "win_rate": 66.62995594713657,
+    "avg_attempts": 3.3469162995594712,
+    "avg_time": 266.9966960352423,
+    "played_next_day": 24.008810572687224,
+    "active_d30": 28.41409691629956
+  },
+  {
+    "word": "GENRO",
+    "sessions": 925,
+    "win_rate": 66.91891891891892,
+    "avg_attempts": 3.305945945945946,
+    "avg_time": 260.15675675675675,
+    "played_next_day": 23.56756756756757,
+    "active_d30": 33.945945945945944
+  }
+]

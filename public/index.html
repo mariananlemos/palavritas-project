@@ -53,8 +53,27 @@
 </head>
 <body class="font-sans antialiased min-h-screen flex flex-col md:flex-row">
 
+    <!-- Mobile Top Header -->
+    <div class="w-full bg-tnCard border-b border-tnBorder p-4 flex items-center justify-between md:hidden sticky top-0 z-30">
+        <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-tnYellow flex items-center justify-center font-bold text-tnDark text-lg">p</div>
+            <div>
+                <h1 class="font-bold text-sm leading-tight tracking-tight">palavritas</h1>
+                <p class="text-[10px] text-tnYellow font-semibold tracking-wider uppercase">the news • dados</p>
+            </div>
+        </div>
+        <button onclick="toggleSidebar()" class="p-2 text-tnGray hover:text-white focus:outline-none" aria-label="Abrir menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Backdrop for Mobile Sidebar -->
+    <div id="sidebar-backdrop" class="fixed inset-0 bg-black/60 z-40 hidden md:hidden" onclick="toggleSidebar()"></div>
+
     <!-- Sidebar -->
-    <aside class="w-full md:w-64 bg-tnCard border-b md:border-b-0 md:border-r border-tnBorder flex flex-col flex-shrink-0">
+    <aside id="sidebar" class="fixed inset-y-0 left-0 z-50 w-64 bg-tnCard border-r border-tnBorder flex flex-col flex-shrink-0 transform -translate-x-full md:translate-x-0 md:relative md:flex transition-transform duration-300 ease-in-out">
         <!-- Logo Header -->
         <div class="p-6 border-b border-tnBorder flex items-center justify-between">
             <div class="flex items-center gap-3">
@@ -64,6 +83,12 @@
                     <p class="text-xs text-tnYellow font-semibold tracking-wider uppercase">the news • dados</p>
                 </div>
             </div>
+            <!-- Close Button for Mobile -->
+            <button onclick="toggleSidebar()" class="md:hidden p-1 text-tnGray hover:text-white focus:outline-none" aria-label="Fechar menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
         </div>
 
         <!-- Navigation -->
@@ -105,7 +130,7 @@
     </aside>
 
     <!-- Main Content Area -->
-    <main class="flex-1 p-6 md:p-10 max-h-screen overflow-y-auto custom-scrollbar flex flex-col gap-8">
+    <main class="flex-1 p-6 md:p-10 md:max-h-screen md:overflow-y-auto custom-scrollbar flex flex-col gap-8">
         
         <!-- Header -->
         <header class="flex flex-col md:flex-row md:items-center justify-between gap-4">

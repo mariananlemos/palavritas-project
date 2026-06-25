@@ -88,6 +88,15 @@ function switchTab(tabId) {
     
     document.getElementById('tab-title').innerText = titleMap[tabId].title;
     document.getElementById('tab-subtitle').innerText = titleMap[tabId].sub;
+
+    // Close sidebar on mobile after choosing a tab
+    const sidebar = document.getElementById('sidebar');
+    const backdrop = document.getElementById('sidebar-backdrop');
+    if (sidebar && sidebar.classList.contains('translate-x-0')) {
+        sidebar.classList.remove('translate-x-0');
+        sidebar.classList.add('-translate-x-full');
+        if (backdrop) backdrop.classList.add('hidden');
+    }
 }
 
 // Populate OVERVIEW KPIs
@@ -351,4 +360,21 @@ function updateDemographicsChart() {
     const sigElement = document.getElementById('demo-chart-sig');
     sigElement.innerText = `p-value: ${pValue.toFixed(4)} (${pValue < 0.05 ? 'Significativo' : 'Não Significativo'})`;
     sigElement.className = `text-xs font-semibold ${pValue < 0.05 ? 'text-emerald-400' : 'text-tnGray'}`;
+}
+
+// Toggle mobile sidebar
+function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    const backdrop = document.getElementById('sidebar-backdrop');
+    if (!sidebar) return;
+    
+    if (sidebar.classList.contains('-translate-x-full')) {
+        sidebar.classList.remove('-translate-x-full');
+        sidebar.classList.add('translate-x-0');
+        if (backdrop) backdrop.classList.remove('hidden');
+    } else {
+        sidebar.classList.remove('translate-x-0');
+        sidebar.classList.add('-translate-x-full');
+        if (backdrop) backdrop.classList.add('hidden');
+    }
 }

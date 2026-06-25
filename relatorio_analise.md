@@ -1,11 +1,10 @@
 # Relatório Executivo: O que determina a retenção no Palavritas?
-**Para:** Head de Produto  
-**De:** Analista de Dados (Produto & Growth)  
+**Feito por:** Mariana Lemos  
 **Assunto:** Diagnóstico de Dados, Fatores de Retorno e Proposta de Alavancagem de Growth  
 
 ---
 
-## Resumo Executivo (Reunião de Segunda-feira)
+## Resumo Executivo
 
 Para responder à pergunta central: *"O que está determinando se um usuário volta a jogar — e o que podemos fazer para aumentar isso?"*, realizamos uma limpeza profunda do dataset e aplicamos testes estatísticos de significância (Qui-Quadrado e Teste T de Student) para separar ruídos de padrões reais de comportamento.
 
@@ -109,5 +108,5 @@ Com base nos dados estruturados, propomos 3 ações concretas focadas nos maiore
 
 ---
 ### Links do Repositório:
-* **Código de Pipeline Python:** [clean_and_analyze.py](file:///c:/Users/Usuario/Desktop/repositorios-mariana/thenews-dados/case-tecnico-thenews/clean_and_analyze.py)
-* **Visualizações JSON:** [public/data/](file:///c:/Users/Usuario/Desktop/repositorios-mariana/thenews-dados/case-tecnico-thenews/public/data)
+* **Código de Pipeline Python:** [clean_and_analyze.py](file:///c:/Users/Usuario/Desktop/repositorios-mariana/thenews-dados/palavritas-project/clean_and_analyze.py)
+* **Visualizações JSON:** [public/data/](file:///c:/Users/Usuario/Desktop/repositorios-mariana/thenews-dados/palavritas-project/public/data)

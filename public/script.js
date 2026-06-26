@@ -15,6 +15,7 @@ const chartColors = {
     gridColor: '#F3F4F6',
     text: '#374151',
     white: '#FFFFFF',
+    dark: '#0D0D0D',
     red: '#EF4444',
     emerald: '#10B981',
     blue: '#3B82F6',
@@ -71,19 +72,19 @@ function switchTab(tabId) {
     
     // Reset sidebar buttons classes
     document.querySelectorAll('aside nav button').forEach(btn => {
-        btn.className = "w-full flex items-center gap-3 px-4 py-3 rounded-xl text-left font-medium transition-all duration-200 text-tnGray hover:text-tnDark hover:bg-[#F3F4F6] lowercase";
+        btn.className = "w-full flex items-center gap-3 px-4 py-3 rounded-xl text-left font-medium transition-all duration-200 text-tnGray hover:text-tnDark hover:bg-tnBorder";
     });
     
     // Set active button class
-    document.getElementById(`btn-${tabId}`).className = "w-full flex items-center gap-3 px-4 py-3 rounded-xl text-left font-medium transition-all duration-200 bg-tnYellow text-tnDark font-semibold lowercase";
+    document.getElementById(`btn-${tabId}`).className = "w-full flex items-center gap-3 px-4 py-3 rounded-xl text-left font-medium transition-all duration-200 bg-tnYellow text-tnDark";
     
     // Update titles
     const titleMap = {
-        'overview': { title: 'visão geral', sub: 'resumo geral das métricas do produto e limpeza de dados.' },
-        'newsletter': { title: 'efeito newsletter', sub: 'o impacto de abrir a newsletter na vitória e na retenção d30.' },
-        'hourly': { title: 'horários & hábitos', sub: 'análise temporal e mapeamento de hábitos do usuário.' },
-        'demographics': { title: 'perfil demográfico', sub: 'análise de segmentação de perfil socioeconômico contra a atividade d30.' },
-        'words': { title: 'palavras & dificuldade', sub: 'identificação de bugs de conteúdo e relevância de palavras na retenção.' }
+        'overview': { title: 'Visão Geral', sub: 'Resumo geral das métricas do produto e limpeza de dados.' },
+        'newsletter': { title: 'Efeito Newsletter', sub: 'O impacto de abrir a newsletter na vitória e na retenção D30.' },
+        'hourly': { title: 'Horários & Hábitos', sub: 'Análise temporal e mapeamento de hábitos do usuário.' },
+        'demographics': { title: 'Perfil Demográfico', sub: 'Análise de segmentação de perfil socioeconômico contra a atividade D30.' },
+        'words': { title: 'Palavras & Dificuldade', sub: 'Identificação de bugs de conteúdo e relevância de palavras na retenção.' }
     };
     
     document.getElementById('tab-title').innerText = titleMap[tabId].title;
@@ -139,11 +140,11 @@ function populateWordsTable() {
         const row = document.createElement('tr');
         row.className = "border-b border-tnBorder hover:bg-[#F9FAFB]";
         
-        const badgeColor = w.type === 'Difícil' ? 'bg-red-50 text-red-600 border border-red-200' : 'bg-emerald-50 text-emerald-600 border border-emerald-200';
+        const badgeColor = w.type === 'Difícil' ? 'bg-red-50 text-red-600 border border-red-100' : 'bg-emerald-50 text-emerald-600 border border-emerald-100';
         
         row.innerHTML = `
             <td class="py-4 px-4 font-semibold text-tnGray">#${w.rank} ${w.type}</td>
-            <td class="py-4 px-4 font-bold text-tnDark tracking-wide lowercase">${w.word}</td>
+            <td class="py-4 px-4 font-bold text-tnDark tracking-wide">${w.word}</td>
             <td class="py-4 px-4 text-right">
                 <span class="px-2.5 py-1 rounded-full text-xs font-semibold ${badgeColor}">
                     ${w.win_rate.toFixed(1)}%
@@ -199,7 +200,7 @@ function initNewsletterChart() {
                     backgroundColor: chartColors.card,
                     borderColor: chartColors.border,
                     borderWidth: 1,
-                    titleColor: chartColors.white,
+                    titleColor: chartColors.dark,
                     bodyColor: chartColors.text
                 }
             },
@@ -236,7 +237,7 @@ function initHourlyChart() {
                     label: 'Número de Partidas (Eixo Esq.)',
                     data: sessions,
                     borderColor: chartColors.gray,
-                    backgroundColor: 'rgba(156, 163, 175, 0.1)',
+                    backgroundColor: 'rgba(138, 138, 138, 0.1)',
                     yAxisID: 'y',
                     fill: true,
                     tension: 0.3,

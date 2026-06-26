@@ -5,20 +5,20 @@ let charts = {};
 
 // Colors for charts
 const chartColors = {
-    yellow: '#FFDE00',
-    yellowLight: 'rgba(255, 222, 0, 0.4)',
-    darkYellow: '#CCB200',
-    gray: '#8A8A8A',
-    lightGray: '#E5E7EB',
-    card: '#1A1A1A',
-    border: '#2B2B2B',
-    gridColor: '#1F1F1F',
-    text: '#F3F4F6',
+    yellow: '#FFC80A',
+    yellowLight: 'rgba(255, 200, 10, 0.2)',
+    darkYellow: '#CC9C00',
+    gray: '#9CA3AF',
+    lightGray: '#F3F4F6',
+    card: '#FFFFFF',
+    border: '#E5E7EB',
+    gridColor: '#F3F4F6',
+    text: '#374151',
     white: '#FFFFFF',
-    red: '#F87171',
-    emerald: '#34D399',
-    blue: '#60A5FA',
-    purple: '#A78BFA'
+    red: '#EF4444',
+    emerald: '#10B981',
+    blue: '#3B82F6',
+    purple: '#8B5CF6'
 };
 
 // Initialize
@@ -71,19 +71,19 @@ function switchTab(tabId) {
     
     // Reset sidebar buttons classes
     document.querySelectorAll('aside nav button').forEach(btn => {
-        btn.className = "w-full flex items-center gap-3 px-4 py-3 rounded-xl text-left font-medium transition-all duration-200 text-tnGray hover:text-white hover:bg-tnBorder";
+        btn.className = "w-full flex items-center gap-3 px-4 py-3 rounded-xl text-left font-medium transition-all duration-200 text-tnGray hover:text-tnDark hover:bg-[#F3F4F6] lowercase";
     });
     
     // Set active button class
-    document.getElementById(`btn-${tabId}`).className = "w-full flex items-center gap-3 px-4 py-3 rounded-xl text-left font-medium transition-all duration-200 bg-tnYellow text-tnDark font-semibold";
+    document.getElementById(`btn-${tabId}`).className = "w-full flex items-center gap-3 px-4 py-3 rounded-xl text-left font-medium transition-all duration-200 bg-tnYellow text-tnDark font-semibold lowercase";
     
     // Update titles
     const titleMap = {
-        'overview': { title: 'Visão Geral', sub: 'Resumo geral das métricas do produto e limpeza de dados.' },
-        'newsletter': { title: 'Efeito Newsletter', sub: 'O impacto de abrir a newsletter na vitória e na retenção D30.' },
-        'hourly': { title: 'Horários & Hábitos', sub: 'Análise temporal e mapeamento de hábitos do usuário.' },
-        'demographics': { title: 'Perfil Demográfico', sub: 'Análise de segmentação de perfil socioeconômico contra a atividade D30.' },
-        'words': { title: 'Palavras & Dificuldade', sub: 'Identificação de bugs de conteúdo e relevância de palavras na retenção.' }
+        'overview': { title: 'visão geral', sub: 'resumo geral das métricas do produto e limpeza de dados.' },
+        'newsletter': { title: 'efeito newsletter', sub: 'o impacto de abrir a newsletter na vitória e na retenção d30.' },
+        'hourly': { title: 'horários & hábitos', sub: 'análise temporal e mapeamento de hábitos do usuário.' },
+        'demographics': { title: 'perfil demográfico', sub: 'análise de segmentação de perfil socioeconômico contra a atividade d30.' },
+        'words': { title: 'palavras & dificuldade', sub: 'identificação de bugs de conteúdo e relevância de palavras na retenção.' }
     };
     
     document.getElementById('tab-title').innerText = titleMap[tabId].title;
@@ -137,19 +137,19 @@ function populateWordsTable() {
     
     displayWords.forEach((w) => {
         const row = document.createElement('tr');
-        row.className = "border-b border-tnBorder hover:bg-[#141414]";
+        row.className = "border-b border-tnBorder hover:bg-[#F9FAFB]";
         
-        const badgeColor = w.type === 'Difícil' ? 'bg-red-900 bg-opacity-35 text-red-400' : 'bg-emerald-900 bg-opacity-35 text-emerald-400';
+        const badgeColor = w.type === 'Difícil' ? 'bg-red-50 text-red-600 border border-red-200' : 'bg-emerald-50 text-emerald-600 border border-emerald-200';
         
         row.innerHTML = `
             <td class="py-4 px-4 font-semibold text-tnGray">#${w.rank} ${w.type}</td>
-            <td class="py-4 px-4 font-bold text-white tracking-wide">${w.word}</td>
+            <td class="py-4 px-4 font-bold text-tnDark tracking-wide lowercase">${w.word}</td>
             <td class="py-4 px-4 text-right">
                 <span class="px-2.5 py-1 rounded-full text-xs font-semibold ${badgeColor}">
                     ${w.win_rate.toFixed(1)}%
                 </span>
             </td>
-            <td class="py-4 px-4 text-right font-medium text-white">${w.avg_attempts.toFixed(2)}</td>
+            <td class="py-4 px-4 text-right font-medium text-tnDark">${w.avg_attempts.toFixed(2)}</td>
             <td class="py-4 px-4 text-right font-semibold text-tnGray">${w.active_d30.toFixed(1)}%</td>
         `;
         body.appendChild(row);
@@ -236,7 +236,7 @@ function initHourlyChart() {
                     label: 'Número de Partidas (Eixo Esq.)',
                     data: sessions,
                     borderColor: chartColors.gray,
-                    backgroundColor: 'rgba(138, 138, 138, 0.1)',
+                    backgroundColor: 'rgba(156, 163, 175, 0.1)',
                     yAxisID: 'y',
                     fill: true,
                     tension: 0.3,
@@ -359,7 +359,7 @@ function updateDemographicsChart() {
     
     const sigElement = document.getElementById('demo-chart-sig');
     sigElement.innerText = `p-value: ${pValue.toFixed(4)} (${pValue < 0.05 ? 'Significativo' : 'Não Significativo'})`;
-    sigElement.className = `text-xs font-semibold ${pValue < 0.05 ? 'text-emerald-400' : 'text-tnGray'}`;
+    sigElement.className = `text-xs font-semibold ${pValue < 0.05 ? 'text-emerald-600' : 'text-tnGray'}`;
 }
 
 // Toggle mobile sidebar

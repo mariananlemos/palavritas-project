@@ -137,13 +137,13 @@
         <header class="flex flex-col md:flex-row md:items-center justify-between gap-4">
             <div>
                 <span class="text-xs font-bold text-tnYellow tracking-widest uppercase">Palavritas Analytics</span>
-                <h2 class="text-3xl font-extrabold text-tnDark tracking-tight mt-1" id="tab-title">Visão Geral</h2>
-                <p class="text-sm text-tnGray mt-1" id="tab-subtitle">Resumo geral das métricas do produto e limpeza de dados.</p>
+                <h2 class="text-3xl font-extrabold text-tnDark tracking-tight mt-1" id="tab-title">visão geral</h2>
+                <p class="text-sm text-tnGray mt-1" id="tab-subtitle">resumo geral das métricas do produto e limpeza de dados.</p>
             </div>
             <div class="flex items-center gap-3">
                 <div class="px-4 py-2 bg-tnCard border border-tnBorder rounded-xl text-xs font-medium flex items-center gap-2 text-tnDark">
                     <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
-                    Dados Higienizados
+                    dados higienizados
                 </div>
             </div>
         </header>
@@ -154,33 +154,33 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
                 <!-- Total Sessions -->
                 <div class="bg-tnCard border border-tnBorder p-6 rounded-2xl flex flex-col justify-between">
-                    <p class="text-xs font-semibold text-tnGray uppercase tracking-wider">Total de Sessões</p>
+                    <p class="text-xs font-semibold text-tnGray uppercase tracking-wider">total de sessões</p>
                     <h3 class="text-3xl font-extrabold text-tnDark mt-2" id="kpi-sessions">--</h3>
-                    <p class="text-xs text-tnGray mt-2">Dados limpos e ativos</p>
+                    <p class="text-xs text-tnGray mt-2">dados limpos e ativos</p>
                 </div>
                 <!-- Total Users -->
                 <div class="bg-tnCard border border-tnBorder p-6 rounded-2xl flex flex-col justify-between">
-                    <p class="text-xs font-semibold text-tnGray uppercase tracking-wider">Usuários Únicos</p>
+                    <p class="text-xs font-semibold text-tnGray uppercase tracking-wider">usuários unicos</p>
                     <h3 class="text-3xl font-extrabold text-tnDark mt-2" id="kpi-users">--</h3>
-                    <p class="text-xs text-tnGray mt-2">Amostra anonimizada</p>
+                    <p class="text-xs text-tnGray mt-2">amostra anonimizada</p>
                 </div>
                 <!-- Win Rate -->
                 <div class="bg-tnCard border border-tnBorder p-6 rounded-2xl flex flex-col justify-between">
-                    <p class="text-xs font-semibold text-tnGray uppercase tracking-wider">Taxa de Vitória</p>
+                    <p class="text-xs font-semibold text-tnGray uppercase tracking-wider">taxa de vitória</p>
                     <h3 class="text-3xl font-extrabold text-tnYellow mt-2" id="kpi-win-rate">--</h3>
-                    <p class="text-xs text-tnGray mt-2">Geral das partidas</p>
+                    <p class="text-xs text-tnGray mt-2">geral das partidas</p>
                 </div>
                 <!-- D1 Retention -->
                 <div class="bg-tnCard border border-tnBorder p-6 rounded-2xl flex flex-col justify-between">
-                    <p class="text-xs font-semibold text-tnGray uppercase tracking-wider">Retenção D1</p>
+                    <p class="text-xs font-semibold text-tnGray uppercase tracking-wider">retenção D1</p>
                     <h3 class="text-3xl font-extrabold text-tnDark mt-2" id="kpi-d1">--</h3>
-                    <p class="text-xs text-tnGray mt-2">Retornaram no dia seguinte</p>
+                    <p class="text-xs text-tnGray mt-2">retornaram no dia seguinte</p>
                 </div>
                 <!-- D30 Active -->
                 <div class="bg-tnCard border border-tnBorder p-6 rounded-2xl flex flex-col justify-between">
-                    <p class="text-xs font-semibold text-tnGray uppercase tracking-wider">Ativos D30</p>
+                    <p class="text-xs font-semibold text-tnGray uppercase tracking-wider">ativos D30</p>
                     <h3 class="text-3xl font-extrabold text-tnDark mt-2" id="kpi-d30">--</h3>
-                    <p class="text-xs text-tnGray mt-2">Ativos após 30 dias</p>
+                    <p class="text-xs text-tnGray mt-2">ativos após 30 dias</p>
                 </div>
             </div>
 
@@ -189,32 +189,32 @@
                 <!-- Data Cleaning Card -->
                 <div class="bg-tnCard border border-tnBorder p-6 rounded-2xl flex flex-col gap-6 lg:col-span-1">
                     <div>
-                        <h4 class="text-lg font-bold text-tnDark">Entrega 1: Diagnóstico de Limpeza</h4>
-                        <p class="text-xs text-tnGray mt-1">Como higienizamos o dataset para a análise</p>
+                        <h4 class="text-lg font-bold text-tnDark">entrega 1: diagnóstico de limpeza</h4>
+                        <p class="text-xs text-tnGray mt-1">como higienizei o dataset para a análise</p>
                     </div>
                     <div class="space-y-4">
                         <div class="flex justify-between items-center py-2 border-b border-tnBorder">
-                            <span class="text-sm text-tnGray">Registros Sessions Iniciais</span>
+                            <span class="text-sm text-tnGray">registros sessions iniciais</span>
                             <span class="text-sm font-semibold text-tnDark" id="clean-raw-sessions">--</span>
                         </div>
                         <div class="flex justify-between items-center py-2 border-b border-tnBorder">
-                            <span class="text-sm text-tnGray">Sessões Removidas (Tentativas != 1-6)</span>
+                            <span class="text-sm text-tnGray">sessões removidas (tentativas != 1-6)</span>
                             <span class="text-sm font-semibold text-red-600" id="clean-removed-attempts">--</span>
                         </div>
                         <div class="flex justify-between items-center py-2 border-b border-tnBorder">
-                            <span class="text-sm text-tnGray">Sessões Sem Resultado (Nulas)</span>
+                            <span class="text-sm text-tnGray">sessões sem resultado (nulas)</span>
                             <span class="text-sm font-semibold text-red-600" id="clean-removed-results">--</span>
                         </div>
                         <div class="flex justify-between items-center py-2 border-b border-tnBorder">
-                            <span class="text-sm text-tnGray">Correções de Casing (device)</span>
+                            <span class="text-sm text-tnGray">correções de casing (device)</span>
                             <span class="text-sm font-semibold text-amber-600" id="clean-device-fixes">--</span>
                         </div>
                         <div class="flex justify-between items-center py-2 border-b border-tnBorder">
-                            <span class="text-sm text-tnGray">Correções de Booleano (delivery)</span>
+                            <span class="text-sm text-tnGray">Correções de booleano (delivery)</span>
                             <span class="text-sm font-semibold text-amber-600" id="clean-delivery-fixes">--</span>
                         </div>
                         <div class="flex justify-between items-center py-2">
-                            <span class="text-sm text-tnGray font-semibold">Registros Sessions Finais</span>
+                            <span class="text-sm text-tnGray font-semibold">registros sessions finais</span>
                             <span class="text-sm font-bold text-emerald-600" id="clean-final-sessions">--</span>
                         </div>
                     </div>
@@ -223,55 +223,55 @@
                             <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                             Decisões Técnicas
                         </p>
-                        <p class="mt-1 leading-relaxed opacity-90">Filtramos sessões com 0, 7 ou 8 tentativas, pois fogem da mecânica de 6 tentativas do Wordle/Palavritas (bugs de rastreamento). Unificamos os termos de dispositivos (iOS/Android) e as respostas de delivery ('sim', 'não', 'True', 'False').</p>
+                        <p class="mt-1 leading-relaxed opacity-90">filtrei sessões com 0, 7 ou 8 tentativas, pois fogem da mecânica de 6 tentativas do Wordle/Palavritas. Unifiquei os termos de dispositivos (iOS/Android) e as respostas de delivery ('sim', 'não', 'True', 'False').</p>
                     </div>
                 </div>
 
                 <!-- Main Overview Insight -->
                 <div class="bg-tnCard border border-tnBorder p-6 rounded-2xl lg:col-span-2 flex flex-col gap-6">
                     <div>
-                        <h4 class="text-lg font-bold text-tnDark">O que determina se o usuário volta a jogar?</h4>
-                        <p class="text-xs text-tnGray mt-1">Análise de significância estatística executada no pipeline Python.</p>
+                        <h4 class="text-lg font-bold text-tnDark">o que determina se o usuário volta a jogar?</h4>
+                        <p class="text-xs text-tnGray mt-1">análise de significância estatística executada em python.</p>
                     </div>
                     
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div class="bg-[#F9FAFB] p-5 rounded-xl border border-tnBorder">
                             <h5 class="text-sm font-bold text-emerald-600 flex items-center gap-1.5">
                                 <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
-                                Variáveis Determinantes (Significativas)
+                                variáveis determinantes (significativas)
                             </h5>
                             <ul class="mt-3 space-y-3 text-xs text-tnGray">
                                 <li>
-                                    <strong class="text-tnDark">Abrir a Newsletter antes do jogo:</strong> 
-                                    <br>p-value = 5.1e-35 (Extremamente Significativo)
+                                    <strong class="text-tnDark">abrir a newsletter antes do jogo:</strong> 
+                                    <br>p-value = 5.1e-35 (extremamente significativo)
                                 </li>
                                 <li>
-                                    <strong class="text-tnDark">Sequência de jogo atual (Streak):</strong> 
-                                    <br>p-value = 0.000004 (Altamente Significativo para D1)
+                                    <strong class="text-tnDark">sequência de jogo atual (streak):</strong> 
+                                    <br>p-value = 0.000004 (altamente significativo para D1)
                                 </li>
                                 <li>
-                                    <strong class="text-tnDark">Performance (Número de tentativas):</strong> 
-                                    <br>p-value = 0.00007 (Significativo para retenção D30)
+                                    <strong class="text-tnDark">performance (número de tentativas):</strong> 
+                                    <br>p-value = 0.00007 (significativo para retenção D30)
                                 </li>
                             </ul>
                         </div>
                         <div class="bg-[#F9FAFB] p-5 rounded-xl border border-tnBorder">
                             <h5 class="text-sm font-bold text-red-600 flex items-center gap-1.5">
                                 <span class="w-2.5 h-2.5 rounded-full bg-red-500"></span>
-                                Sem Influência Prática (Não Significativas)
+                                sem influência prática (não significativas)
                             </h5>
                             <ul class="mt-3 space-y-3 text-xs text-tnGray">
                                 <li>
-                                    <strong class="text-tnDark">Dados Demográficos:</strong> 
-                                    <br>Idade, Cargo, Salário, Estado e Setor não têm impacto no retorno (todos com p-value > 0.10).
+                                    <strong class="text-tnDark">dados demográficos:</strong> 
+                                    <br>idade, cargo, salário, estado e setor não têm impacto no retorno (todos com p-value > 0.10).
                                 </li>
                                 <li>
-                                    <strong class="text-tnDark">Hábitos de Delivery:</strong> 
-                                    <br>Pedir comida por app ou frequência semanal não impactam a retenção.
+                                    <strong class="text-tnDark">hábitos de delivery:</strong> 
+                                    <br>pedir comida por app ou frequência semanal não impactam a retenção.
                                 </li>
                                 <li>
-                                    <strong class="text-tnDark">Dificuldade da Palavra:</strong> 
-                                    <br>Palavras difíceis não causam churn dos usuários.
+                                    <strong class="text-tnDark">dificuldade da palavra:</strong> 
+                                    <br>palavras difíceis não causam churn dos usuários.
                                 </li>
                             </ul>
                         </div>
@@ -291,19 +291,19 @@
                 <div class="bg-tnCard border border-tnBorder p-6 rounded-2xl flex flex-col justify-between gap-6 lg:col-span-1">
                     <div class="flex flex-col gap-4">
                         <div>
-                            <h4 class="text-lg font-bold text-tnDark">O Efeito Newsletter</h4>
-                            <p class="text-xs text-tnGray mt-1">Como a integração e-mail-jogo afeta a performance e o retention.</p>
+                            <h4 class="text-lg font-bold text-tnDark">efeito newsletter</h4>
+                            <p class="text-xs text-tnGray mt-1">como a integração e-mail-jogo afeta a performance e o retention.</p>
                         </div>
                         <div class="space-y-4 text-sm text-tnGray">
-                            <p><strong>Por que a newsletter funciona?</strong></p>
-                            <p class="text-xs leading-relaxed">Usuários que abrem a newsletter antes de jogar têm um desempenho substancialmente melhor. A taxa de vitória sobe para <strong class="text-tnYellow">76.9%</strong> (contra 56.4% de quem não abre), e o número médio de tentativas cai de <strong class="text-tnDark">3.74</strong> para <strong class="text-tnYellow">2.92</strong>.</p>
-                            <p class="text-xs leading-relaxed">Esse sucesso gera um sentimento de autoeficácia e satisfação que ancora o usuário a longo prazo, aumentando a retenção D30 em <strong>23.6% relativos</strong>.</p>
+                            <p><strong>por que a newsletter funciona?</strong></p>
+                            <p class="text-xs leading-relaxed">usuários que abrem a newsletter antes de jogar têm um desempenho substancialmente melhor. A taxa de vitória sobe para <strong class="text-tnYellow">76.9%</strong> (contra 56.4% de quem não abre), e o número médio de tentativas cai de <strong class="text-tnDark">3.74</strong> para <strong class="text-tnYellow">2.92</strong>.</p>
+                            <p class="text-xs leading-relaxed">esse sucesso gera um sentimento de autoeficácia e satisfação que ancora o usuário a longo prazo, aumentando a retenção D30 em <strong>23.6% relativos</strong>.</p>
                         </div>
                     </div>
                     <div class="bg-[#F9FAFB] p-4 rounded-xl border border-tnBorder text-xs text-tnGray">
-                        <p class="font-bold text-tnDark mb-1">Resultado de Significância (Chi-Square):</p>
+                        <p class="font-bold text-tnDark mb-1">resultado de significância (qui-quadrado):</p>
                         <p>D30 Active p-value: <strong class="text-emerald-600">5.12e-35</strong></p>
-                        <p class="opacity-75">Isso descarta qualquer possibilidade de o resultado ser aleatório.</p>
+                        <p class="opacity-75">isso descarta qualquer possibilidade de o resultado ser aleatório.</p>
                     </div>
                 </div>
 
@@ -324,12 +324,12 @@
                 <div class="bg-tnCard border border-tnBorder p-6 rounded-2xl flex flex-col justify-between gap-6 lg:col-span-1">
                     <div class="flex flex-col gap-4">
                         <div>
-                            <h4 class="text-lg font-bold text-tnDark">Análise de Horários</h4>
-                            <p class="text-xs text-tnGray mt-1">Como a hora da partida revela hábitos e engajamento.</p>
+                            <h4 class="text-lg font-bold text-tnDark">análise de horários</h4>
+                            <p class="text-xs text-tnGray mt-1">como a hora da partida revela hábitos e engajamento.</p>
                         </div>
                         <div class="space-y-4 text-xs text-tnGray leading-relaxed">
-                            <p><strong>Picos de Partidas:</strong> O jogo possui dois picos principais de tráfego. Um matinal (<span class="text-tnDark font-semibold">06h às 08h</span>) e outro noturno (<span class="text-tnDark font-semibold">22h às 23h</span>).</p>
-                            <p><strong>A Diferença do Hábito:</strong> Embora ambos os horários tenham volumes semelhantes de partidas, o perfil do usuário é completamente diferente:</p>
+                            <p><strong>Picos de Partidas:</strong> o jogo possui dois picos principais de tráfego: Um matinal (<span class="text-tnDark font-semibold">06h às 08h</span>) e outro noturno (<span class="text-tnDark font-semibold">22h às 23h</span>).</p>
+                            <p><strong>A Diferença do Hábito:</strong> embora ambos os horários tenham volumes semelhantes de partidas, o perfil do usuário é completamente diferente:</p>
                             <ul class="list-disc pl-4 space-y-1">
                                 <li>No pico matinal (07h), <strong class="text-tnYellow">61%</strong> dos usuários abrem a newsletter antes de jogar. A retenção D30 aqui atinge <strong class="text-tnDark font-bold">38.5%</strong>.</li>
                                 <li>No pico noturno (22h-23h), <strong class="text-red-600">0%</strong> dos usuários abrem a newsletter antes de jogar. A retenção D30 despenca para <strong class="text-red-600">29%</strong>.</li>
@@ -337,14 +337,14 @@
                         </div>
                     </div>
                     <div class="bg-[#F9FAFB] p-4 rounded-xl border border-tnBorder text-xs text-tnGray">
-                        <p class="font-bold text-tnDark mb-1">Hábito vs Declaração:</p>
-                        <p class="opacity-80">Há um perfeito alinhamento entre o horário de jogo e o período típico declarado no perfil de usuário (Morning, Afternoon, Evening, Night).</p>
+                        <p class="font-bold text-tnDark mb-1">hábito vs declaração:</p>
+                        <p class="opacity-80">há um perfeito alinhamento entre o horário de jogo e o período típico declarado no perfil de usuário.</p>
                     </div>
                 </div>
 
                 <!-- Hourly Chart -->
                 <div class="bg-tnCard border border-tnBorder p-6 rounded-2xl lg:col-span-2 flex flex-col gap-6">
-                    <h4 class="text-base font-bold text-tnDark">Volume de Sessões e Retenção D30 por Hora do Dia</h4>
+                    <h4 class="text-base font-bold text-tnDark">volume de sessões e retenção D30 por hora do dia</h4>
                     <div class="relative w-full h-[320px]">
                         <canvas id="chart-hourly"></canvas>
                     </div>
@@ -359,18 +359,18 @@
                 <div class="bg-tnCard border border-tnBorder p-6 rounded-2xl flex flex-col justify-between gap-6 lg:col-span-1">
                     <div class="flex flex-col gap-4">
                         <div>
-                            <h4 class="text-lg font-bold text-tnDark">Segmentação Demográfica</h4>
-                            <p class="text-xs text-tnGray mt-1">Comparando a atividade D30 por fatias de usuários.</p>
+                            <h4 class="text-lg font-bold text-tnDark">segmentação demográfica</h4>
+                            <p class="text-xs text-tnGray mt-1">comparando a atividade D30 por fatias de usuários.</p>
                         </div>
                         <div class="space-y-4 text-xs text-tnGray leading-relaxed">
-                            <p><strong>a demografia é neutra:</strong> De forma notável, os dados demográficos (idade, salário, UF, cargo, etc.) não influenciam de forma significativa a retenção do jogo.</p>
-                            <p>A taxa média de retenção D30 oscila de forma muito estreita (entre <span class="text-tnDark font-semibold">31% e 33%</span>) para todos os segmentos, com p-values muito elevados nos testes de qui-quadrado.</p>
-                            <p>Isso prova que o Palavritas é um produto de apelo universal e que o churn não é concentrado em nenhuma faixa etária ou econômica específica. Isso redireciona o foco do time de growth de "quem é o usuário" para "como ele usa o produto".</p>
+                            <p><strong>a demografia é neutra:</strong> de forma notável, os dados demográficos (idade, salário, UF, cargo, etc.) não influenciam de forma significativa a retenção do jogo.</p>
+                            <p>a taxa média de retenção D30 oscila de forma muito estreita (entre <span class="text-tnDark font-semibold">31% e 33%</span>) para todos os segmentos, com p-values muito elevados nos testes de qui-quadrado.</p>
+                            <p>isso prova que o Palavritas é um produto de apelo universal e que o churn não é concentrado em nenhuma faixa etária ou econômica específica. Isso redireciona o foco do time de growth de "quem é o usuário" para "como ele usa o produto".</p>
                         </div>
                     </div>
                     <!-- Select element to change demograph col -->
                     <div class="flex flex-col gap-2">
-                        <label for="demo-select" class="text-xs text-tnGray font-semibold uppercase">Mudar Variável no Gráfico:</label>
+                        <label for="demo-select" class="text-xs text-tnGray font-semibold uppercase">mudar variável no gráfico:</label>
                         <select id="demo-select" onchange="updateDemographicsChart()" class="w-full bg-white border border-tnBorder rounded-xl px-4 py-2.5 text-xs text-tnDark focus:outline-none focus:border-tnYellow">
                             <option value="age_range">Faixa Etária</option>
                             <option value="salary_range">Faixa Salarial</option>
@@ -384,8 +384,8 @@
                 <!-- Demographics Chart -->
                 <div class="bg-tnCard border border-tnBorder p-6 rounded-2xl lg:col-span-2 flex flex-col gap-6">
                     <div class="flex items-center justify-between">
-                        <h4 class="text-base font-bold text-tnDark" id="demo-chart-title">Retenção D30 por Faixa Etária</h4>
-                        <span class="text-xs text-tnGray" id="demo-chart-sig">p-value: -- (Não Significativo)</span>
+                        <h4 class="text-base font-bold text-tnDark" id="demo-chart-title">retenção D30 por Faixa Etária</h4>
+                        <span class="text-xs text-tnGray" id="demo-chart-sig">p-value: -- (não significativo)</span>
                     </div>
                     <div class="relative w-full h-[320px]">
                         <canvas id="chart-demographics"></canvas>
@@ -401,28 +401,28 @@
                 <div class="bg-tnCard border border-tnBorder p-6 rounded-2xl flex flex-col justify-between gap-6 lg:col-span-1">
                     <div class="flex flex-col gap-4">
                         <div>
-                            <h4 class="text-lg font-bold text-tnDark">Palavras e Dificuldade</h4>
-                            <p class="text-xs text-tnGray mt-1">O impacto das palavras do dia no comportamento do usuário.</p>
+                            <h4 class="text-lg font-bold text-tnDark">palavras e dificuldade</h4>
+                            <p class="text-xs text-tnGray mt-1">o impacto das palavras do dia no comportamento do usuário.</p>
                         </div>
                         <div class="space-y-4 text-xs text-tnGray leading-relaxed">
-                            <p><strong>Hardest vs Easiest:</strong> Palavras como <span class="text-tnDark font-semibold">DANÇA</span>, <span class="text-tnDark font-semibold">PAZÃO</span> e <span class="text-tnDark font-semibold">CIÚME</span> geraram as maiores dificuldades para os usuários (taxa de vitória caindo para menos de 45%!).</p>
-                            <p><strong>Bugs Ortográficos:</strong> Note que a palavra <span class="text-tnDark font-semibold">ORAÇÃ</span> teve apenas 45.9% de vitórias, pois está truncada (limite de 5 caracteres para uma palavra de 6 letras, "oração").</p>
-                            <p><strong>Dificuldade Não Afeta Retenção:</strong> Apesar da frustração de perder o jogo, a correlação entre a taxa de vitória da palavra e o retorno no dia seguinte é de <strong>-0.107 (não significativa)</strong>. Perder uma palavra difícil não faz o usuário desistir do jogo a longo prazo.</p>
+                            <p><strong>hardest vs easiest:</strong> palavras como <span class="text-tnDark font-semibold">DANÇA</span>, <span class="text-tnDark font-semibold">PAZÃO</span> e <span class="text-tnDark font-semibold">CIÚME</span> geraram as maiores dificuldades para os usuários (taxa de vitória caindo para menos de 45%!).</p>
+                            <p><strong>erros ortográficos:</strong> note que a palavra <span class="text-tnDark font-semibold">ORAÇÃ</span> teve apenas 45.9% de vitórias, pois está cortada (limite de 5 caracteres para uma palavra de 6 letras, "oração").</p>
+                            <p><strong>dificuldade não afeta retenção:</strong> apesar da frustração de perder o jogo, a correlação entre a taxa de vitória da palavra e o retorno no dia seguinte é de <strong>-0.107 (não significativa)</strong>. Perder uma palavra difícil não faz o usuário desistir do jogo a longo prazo.</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Words Tables / Charts -->
                 <div class="bg-tnCard border border-tnBorder p-6 rounded-2xl lg:col-span-2 flex flex-col gap-4">
-                    <h4 class="text-base font-bold text-tnDark">Ranking de Palavras por Taxa de Vitória (Difíceis vs Fáceis)</h4>
+                    <h4 class="text-base font-bold text-tnDark">ranking de palavras por taxa de vitória (difíceis vs fáceis)</h4>
                     <div class="overflow-x-auto custom-scrollbar">
                         <table class="w-full text-xs text-left text-tnGray">
                             <thead class="text-tnGray uppercase tracking-wider border-b border-tnBorder">
                                 <tr>
                                     <th class="py-3 px-4">Rank</th>
                                     <th class="py-3 px-4">Palavra</th>
-                                    <th class="py-3 px-4 text-right">Taxa de Vitória</th>
-                                    <th class="py-3 px-4 text-right">Média de Tentativas</th>
+                                    <th class="py-3 px-4 text-right">Taxa de vitória</th>
+                                    <th class="py-3 px-4 text-right">Média de tentativas</th>
                                     <th class="py-3 px-4 text-right">Retenção D30</th>
                                 </tr>
                             </thead>

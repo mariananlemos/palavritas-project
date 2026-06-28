@@ -80,12 +80,12 @@ function switchTab(tabId) {
     
     // Update titles
     const titleMap = {
-        'overview': { title: 'Visão Geral', sub: 'Resumo geral das métricas do produto e limpeza de dados.' },
-        'newsletter': { title: 'Efeito Newsletter', sub: 'O impacto de abrir a newsletter na vitória e na retenção D30.' },
-        'hourly': { title: 'Horários & Hábitos', sub: 'Análise temporal e mapeamento de hábitos do usuário.' },
-        'demographics': { title: 'Perfil Demográfico', sub: 'Análise de segmentação de perfil socioeconômico contra a atividade D30.' },
-        'words': { title: 'Palavras & Dificuldade', sub: 'Identificação de bugs de conteúdo e relevância de palavras na retenção.' }
-    };
+    'overview': { title: 'visão geral', sub: 'entrega 1 — diagnóstico e limpeza dos dados.' },
+    'newsletter': { title: 'efeito newsletter', sub: 'entrega 2 — o impacto de abrir a newsletter na vitória e na retenção d30.' },
+    'hourly': { title: 'horários & hábitos', sub: 'entrega 2 — análise temporal e mapeamento de hábitos do usuário.' },
+    'demographics': { title: 'perfil demográfico', sub: 'entrega 2 — segmentação de perfil socioeconômico contra a atividade d30.' },
+    'words': { title: 'palavras & dificuldade', sub: 'entrega 2 — dificuldade das palavras e impacto na retenção.' }
+};
     
     document.getElementById('tab-title').innerText = titleMap[tabId].title;
     document.getElementById('tab-subtitle').innerText = titleMap[tabId].sub;
